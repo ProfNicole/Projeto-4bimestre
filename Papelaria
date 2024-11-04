@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos sobre Papelaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .video {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .video h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Catálogo de Vídeos sobre Papelaria</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="video">
+            <h2>Vídeo 1: Introdução à Papelaria</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EXEMPLO1" frameborder="0" allowfullscreen></iframe>
+            <p>Descrição do vídeo 1.</p>
+        </div>
+        <div class="video">
+            <h2>Vídeo 2: Ferramentas Essenciais</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EXEMPLO2" frameborder="0" allowfullscreen></iframe>
+            <p>Descrição do vídeo 2.</p>
+        </div>
+        <!-- Adicione mais vídeos conforme necessário -->
+    </div>
+</body>
+</html>
